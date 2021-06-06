@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("gym/hp.jpg");
+    height: 1356px;
+    color: honeydew;
+}
+.left{
+  /*   border: 2px solid red;*/
+     display: inline-block;
+     position: absolute;
+     left: 24px;
+     top: 12px;
+}
+.left img{
+    width: 97px;
+}
+.left div{
+    text-align: center;
+}
+.right{
+    position: absolute;
+    right: 24px;
+    top: 12px;
+   /*  border: 2px solid blue;*/
+      display: inline-block;
+}
+.btn{
+    margin: 0px 9px;
+    color:black;
+    padding: 1px 5px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:black;
+    color: blanchedalmond;
+}
+.mid{
+     /* border: 2px solid greenyellow;*/
+     /* position: absolute;
+      left: 319px;
+      display : inline-block;
+      width: 64%;*/
+      display: block;
+      width: 55%;
+      margin: 12px auto;
+}
+.navbar{
+    display : inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 19px;
+
+}
+.navbar li a{
+color: cornsilk;
+text-decoration: none;
+padding: 34px 23px;
+}
+.navbar li a:hover{
+    text-decoration:underline;
+    color : gray;
+}
+.div1{
+   /* border: 2px solid purple;*/
+    width: 26%;
+    position: absolute;
+    top: 133px;
+    left: 33px;
+    padding: 11px 25px;
+    margin : 6px;
+}
+.button1{
+    display: block;
+    width: 60px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button1:hover{
+    color: wheat;
+    background-color: black;
+}
+.heading{
+    position: absolute;
+    left: 219px;
+    letter-spacing: 3px;
+    word-spacing: 11px;
+}
+.div1 h3{
+    text-align: center;
+    color:whitesmoke;
+    font-style: bold;
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    margin: 13px;
+    padding: 6px;
+    width: 310px;
+}
+#equipments{
+    display: inline-block;
+    position: absolute;
+    top: 174px;
+    left: 751px;
+}
+#trainers{
+    position: absolute;
+    top: 434px;
+    left: 80px;
+}
+#shift{
+    position: absolute;
+    top: 574px;
+    left: 79px;
+}
+footer{
+    display: inline-block;
+    position: absolute;
+    top: 1342px;
+    left: 596px;
+}
+#ready{
+    display: inline-block;
+    position: absolute;
+    top: 1095px;
+    left: 448px;
+}
+#ready span{
+    font-weight: 1000;
+    font-style: italic;
+    font-size: xxx-large;
+}
